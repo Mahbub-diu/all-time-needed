@@ -1,4 +1,4 @@
-var menuitemSelector = 'header .main-header ul li a';
+  var menuitemSelector = 'header .main-header ul.parent-ul > li > a';
 
   $(menuitemSelector).click(function () {
     var isActive = $(this).hasClass('active');
