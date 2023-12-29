@@ -6,7 +6,6 @@
 
     if (openMegaMenu && openMegaMenu[0] !== megaMenu[0]) {
       openMegaMenu.fadeOut('slow');
-
       openMegaMenu.closest('.megamenu-parent').find('a').removeClass('active');
     }
 
@@ -18,16 +17,17 @@
   $('.megamenu-main .megamenu-close').click(function (e) {
     e.preventDefault();
 
+    // Hide the megamenu
     $(this).closest('.megamenu-main').fadeOut('slow');
 
-    $(this).closest('.megamenu-parent').find('a').removeClass('active');
+    // Remove active class only from li.megamenu-parent children a
+    $(this).closest('.megamenu-parent').children('a').removeClass('active');
   });
 
   $(document).on('click', function (e) {
     if (!$(e.target).closest('.megamenu-parent').length) {
       if (openMegaMenu) {
         openMegaMenu.fadeOut('slow');
-
         openMegaMenu
           .closest('.megamenu-parent')
           .find('a')

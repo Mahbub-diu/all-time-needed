@@ -1,11 +1,7 @@
-  var menuitemSelector = 'header .main-header ul.parent-ul > li > a';
+ var menuitemSelector = '.title-box ul li a';
 
-  $(menuitemSelector).click(function () {
-    var isActive = $(this).hasClass('active');
-
+  $(document).on('click', menuitemSelector, function () {
     $(menuitemSelector).removeClass('active');
 
-    if (!isActive) {
-      $(this).toggleClass('active');
-    }
+    $(this).addClass('active');
   });
