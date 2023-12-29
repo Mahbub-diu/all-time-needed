@@ -1,0 +1,20 @@
+    <div class="price-range-slider">
+                                                    <div class="test">
+                                                        <div class="subtitle-flex">
+                                                            <div class="subtitle">altezza</div>
+                                                            <div class="allvalue-boxes">
+                                                                <span id="altezza-value1" class="value"></span>
+                                                                <span id="separtor">-</span>
+                                                                <span id="altezza-value2" class="value "></span>
+                                                            </div>
+                                                        </div>
+                                                        <div id="altezza"></div>
+
+                                                    </div>
+
+                                                    <div class="hidden-range-input">
+                                                        <input type="hidden" id="altezza-min-value" name="min_price">
+                                                        <input type="hidden" id="altezza-max-value" name="max_price">
+                                                    </div>
+
+                                                </div>
