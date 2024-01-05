@@ -5,6 +5,8 @@ var swiper = new Swiper('.home-slider', {
       autoplay: {
         delay: 5000,
       },
+      autoplay: true,
+
       loop: true,
 
       navigation: {
