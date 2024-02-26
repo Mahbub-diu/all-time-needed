@@ -1,0 +1,343 @@
+@import "sheets-of-paper.css";
+
+.page {
+	width: 21cm;
+	min-height: 29.7cm;
+	padding-left: 2cm;
+	padding-top: 2cm;
+	padding-right: 2cm;
+	padding-bottom: 2cm;
+
+}
+
+
+table {
+	display: table;
+	text-indent: 0;
+	border-color: inherit;
+	border-collapse: collapse;
+}
+
+.align-top {
+	vertical-align: top;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.w-full {
+	width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.header-title-box {
+	padding: 0px 10px;
+	text-align: center;
+}
+
+.header-title-box h1 {
+	font-size: 20px;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.header-title-box h6 {
+	font-size: 15px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.header-title-box p {
+	font-size: 11px;
+	line-height: 17px;
+	text-transform: uppercase;
+}
+
+.copy-version {
+	margin-top: 30px;
+}
+
+.money-reciept {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.money-reciept h2 {
+	font-size: 20px;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.customer-box {
+	border: 2px solid #000;
+	padding: 10px 15px;
+	width: 200px;
+	min-height: 65px;
+	margin-bottom: 20px;
+}
+
+.customer-box h5 {
+	text-transform: capitalize;
+	font-weight: normal;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+.customer-box h5:nth-child(2) {
+	margin-bottom: 0;
+}
+
+.customer-date {
+	border: 2px solid #000;
+	padding: 10px 15px;
+	width: 200px;
+	min-height: 65px;
+	text-align: left;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+
+.customer-date h5 {
+	text-transform: capitalize;
+	font-weight: normal;
+	font-size: 13px;
+	margin-bottom: 10px;
+
+}
+
+.plot-information {
+	border: 2px solid #000;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.plot-information h5 {
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	text-decoration: underline;
+}
+
+.plot-information div {
+	font-size: 12px;
+}
+
+.recive-thanks {
+	font-size: 14px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.sender {
+	font-size: 14px;
+	text-transform: capitalize;
+	border-bottom: 1px solid #000;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.send-medium {
+	font-size: 14px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.medium-name {
+	font-size: 14px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #000;
+	display: inline-block;
+	width: 230px;
+}
+
+.send-branch {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.branch-name {
+	font-size: 14px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #000;
+	display: inline-block;
+	width: 220px;
+
+}
+
+.send-agains {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.land-amount {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+	border-bottom: 1px solid #000;
+	width: 200px;
+}
+
+.send-for {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+
+}
+
+.installment {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+	border-bottom: 1px solid #000;
+	width: 290px;
+}
+
+.plot-type {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.type-name {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+	border-bottom: 1px solid #000;
+	width: 246px;
+}
+
+.other {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.otheres-options {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+	border-bottom: 1px solid #000;
+	width: 265px;
+}
+
+.installment-no {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.count-installment {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+	border-bottom: 1px solid #000;
+	width: 214px;
+}
+
+.month-installment {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.month {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+	border-bottom: 1px solid #000;
+	width: 176px;
+}
+
+.amount {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.totalamount {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+	border-bottom: 1px solid #000;
+	width: 255px;
+}
+
+.amount-word {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.total-amt-wrd {
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: inline-block;
+	border-bottom: 1px solid #000;
+	width: 199px;
+}
+
+.payment-valid {
+	font-size: 14px;
+	margin-bottom: 5px;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.bill-border {
+	border-bottom: 2px solid #000;
+	text-align: center;
+	min-height: 30px;
+}
+
+.bill-prepared-by {
+	margin-top: 5px;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+.bill-padding {
+	padding: 0 15px;
+	min-height: 70px;
+}
+
+.qr-image {
+	margin: 0px auto;
+	width: 100px;
+}
+
+.qr-image img {
+	width: 100px;
+}
+
+.signature-main {
+	margin-top: 100px;
+}
+
+@page {
+	size: A4 portrait;
+	margin-left: 2cm;
+	margin-top: 2cm;
+	margin-right: 2cm;
+	margin-bottom: 2cm;
+}
