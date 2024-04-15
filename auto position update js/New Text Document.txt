@@ -1,0 +1,18 @@
+ var secondaryHeader = $('.secondary-header-main');
+    var sliderBreadcrum = $('.home-slider-main .breadcrumb-main');
+
+    function updateTopPosition() {
+      var mainHeaderHeight = $('#main-header').outerHeight();
+      var secondaryHeaderHeight = secondaryHeader.outerHeight();
+
+      var totalHeight = secondaryHeaderHeight + mainHeaderHeight;
+
+      secondaryHeader.css('top', mainHeaderHeight + 'px');
+      sliderBreadcrum.css('top', totalHeight + 'px');
+    }
+
+    $(window).on('scroll resize', function () {
+      updateTopPosition();
+    });
+
+    updateTopPosition();
