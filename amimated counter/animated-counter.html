@@ -1,0 +1,61 @@
+<section class="home-counter-main ">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="counterup-progress">
+                    <div class="count-number">
+                        <span class="odometer count" data-count="15">0</span>
+                        <span class="symbol">+</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="counterup-progress">
+                    <div class="count-number">
+                        <span class="odometer count" data-count="360">0</span>
+                        <span class="symbol">+</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="counterup-progress">
+                    <div class="count-number">
+                        <span class="odometer count" data-count="600">0</span>
+                        <span class="symbol">+</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="counterup-progress">
+                    <div class="count-number">
+                        <span class="odometer count" data-count="64">0</span>
+                        <span class="symbol">+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</section>
+
+<script>
+    $(document).ready(function() {
+        function counterUp() {
+            var elementSelector = $('.count');
+            elementSelector.each(function() {
+                $(this).appear(function() {
+                    var el = this;
+                    var updateData = $(el).attr("data-count");
+                    var od = new Odometer({
+                        el: el,
+                        format: 'd',
+                        duration: 2000
+                    });
+                    od.update(updateData);
+                });
+            });
+        }
+        counterUp();
+    });
+</script>
