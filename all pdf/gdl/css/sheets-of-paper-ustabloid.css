@@ -1,0 +1,19 @@
+ @import "sheets-of-paper.css";
+
+ .page {
+
+ 	width: 27.9cm;
+ 	min-height: 43.2cm;
+ 	padding-left: 2cm;
+ 	padding-top: 2cm;
+ 	padding-right: 2cm;
+ 	padding-bottom: 2cm;
+ }
+
+ @page {
+ 	size: ledger portrait;
+ 	margin-left: 2cm;
+ 	margin-top: 2cm;
+ 	margin-right: 2cm;
+ 	margin-bottom: 2cm;
+ }
