@@ -1,0 +1,62 @@
+{
+  "workbench.colorTheme": "GitHub Dark",
+  "bracketPairColorizer.depreciation-notice": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.inlineSuggest.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.autoClosingBrackets": "always",
+    "gitlens.codeLens.scopes": ["document"],
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  "explorer.confirmDelete": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "npm.keybindingsChangedWarningShown": true,
+  "powermode.enabled": true,
+  "powermode.presets": "flames",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.accessibilitySupport": "off",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "window.zoomLevel": 1,
+  "task.allowAutomaticTasks": "on",
+  "liveSassCompile.settings.forceBaseDirectory": "",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": null,
+      "savePathReplacementPairs": null
+    }
+  ],
+
+  // "liveSassCompile.settings.formats": [
+
+  //   {
+  //     "format": "expanded",
+  //     "extensionName": ".css",
+  //     "savePath": "~/../css/"
+  //   }
+  // ],
+  "files.autoSave": "onFocusChange",
+  "geminicodeassist.project": "",
+  "security.promptForLocalFileProtocolHandling": false
+}
