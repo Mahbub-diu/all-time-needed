@@ -1,7 +1,7 @@
 <?php
 
 /**
- * template name: BeDriver Dashboard
+ * template name: CDF Home Page
  */
 get_header();
 ?>

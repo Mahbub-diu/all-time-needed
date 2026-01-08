@@ -1,10 +1,13 @@
 <?php
 
 /**
- * template name: Brandifi Home
+ * template name: Como Recerca
  */
 get_header();
 ?>
+
+
+
 
 <?php
 get_footer();

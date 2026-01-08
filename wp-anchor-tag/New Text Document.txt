@@ -1,0 +1,15 @@
+
+     <?php
+
+            
+                    $link = get_field('service_sec3_button_link');
+                    ?>
+  <?php if ($link) : ?>
+                        <div class="vendita-btn">
+                            <a href="<?php echo ($link['url']); ?>"
+                                target="<?php echo ($link['target'] ?: '_self'); ?>">
+                                <?php echo ($link['title']); ?>
+                                <i class="fal fa-info-circle"></i>
+                            </a>
+                        </div>
+                    <?php endif; ?>
