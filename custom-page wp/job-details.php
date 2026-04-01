@@ -1,7 +1,7 @@
 <?php
 
 /**
- * template name: miba certification
+ * template name: SHM Job Details
  */
 get_header();
 ?>
