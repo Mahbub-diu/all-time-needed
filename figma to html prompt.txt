@@ -1,0 +1,45 @@
+I will provide a Figma design link.
+Link:@https://www.figma.com/design/wBUNUJUlmF3mD3r64dcvWS/CASATI-MARIO--DEV-?node-id=6-445&m=dev
+
+Your task is to convert the Figma design into a complete, production-ready, and pixel-perfect HTML implementation.
+
+Core Requirements:
+The design must match the Figma file exactly (fonts, colors, spacing, line-height, shadows, borders, etc.).
+Use Bootstrap grid system (container, row, col-*) for layout structure.
+I already have Bootstrap utility classes inside base.css, so:
+Reuse existing Bootstrap classes wherever possible.
+Avoid creating unnecessary custom layout classes.
+HTML Guidelines:
+The HTML must be WordPress-friendly:
+Use clean, semantic structure.
+Avoid inline styles.
+Structure sections so they can be easily converted into WordPress templates.
+Do NOT assign classes directly to semantic tags, including:
+h1, h2, h3, h4, h5, h6
+p, ul, li, a, span
+Instead, wrap them inside divs and apply classes to parent elements.
+CSS Guidelines:
+Write optimized, maintainable CSS.
+Keep styles modular and minimal.
+Use consistent naming conventions.
+Ensure full responsiveness for all devices (mobile, tablet, desktop).
+Hero Section (Important):
+Implement a Swiper.js slider in the Hero section.
+Each .swiper-slide may contain:
+Background images OR
+Background videos
+For video slides:
+Autoplay the video.
+When the video finishes playing, automatically move to the next slide.
+Ensure smooth transitions and proper performance optimization.
+JavaScript:
+Use minimal JavaScript.
+Only include necessary logic for:
+Swiper initialization
+Video end event → slide change
+Output Format:
+Provide:
+index.html
+style.css
+script.js (if needed)
+Code must be clean, well-structured, and ready for production use.

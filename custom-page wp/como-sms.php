@@ -1,7 +1,7 @@
 <?php
 
 /**
- * template name: Cantu New Home
+ * template name: Como Acqua Sms
  */
 get_header();
 ?>

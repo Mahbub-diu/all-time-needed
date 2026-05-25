@@ -1,0 +1,25 @@
+
+    <header>
+        <div class="main-header">
+            <div class="container-fluid">
+                <div class="header-flex">
+                    <div class="logo-box"></div>
+                    <div class="main-header-items">
+                        <?php
+
+                        wp_nav_menu(
+                            array(
+                                'theme_location' => 'topmenu',
+                                'container' => 'main-header-items',
+                                // 'container_class' => 'navbar navbar-expand-lg navbar-light bg-light',
+                                'menu_id' => 'top-menu',
+                                'menu_class' => 'nav justify-content-center mahbub-menu',
+                            )
+                        );
+
+                        ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
